@@ -1,7 +1,6 @@
 #include "Fraction.hpp"
 #include <cmath>
 #include <algorithm>
-#include <limits.h>
 
 namespace ariel
 {

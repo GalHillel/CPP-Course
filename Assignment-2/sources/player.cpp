@@ -1,7 +1,4 @@
 #include "player.hpp"
-#include <string>
-#include <vector>
-#include <iostream>
 
 namespace ariel
 {

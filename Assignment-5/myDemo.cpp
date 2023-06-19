@@ -856,7 +856,7 @@ int main()
 
     // Use DescendingIterator to display elements in descending order
     std::cout << "Elements in cross order:\n";
-    
+
     for (auto it = crossIter.begin(); it != crossIter.end(); ++it)
     {
         std::cout << *it << ' ';
@@ -865,7 +865,7 @@ int main()
 
     // Use PrimeIterator to display prime numbers only
     std::cout << "Prime numbers:\n";
-    
+
     for (auto it = primeIter.begin(); it != primeIter.end(); ++it)
     {
         std::cout << *it << ' ';

@@ -1,8 +1,5 @@
 #include "Team.hpp"
-#include <algorithm>
 #include <cmath>
-#include <stdexcept>
-#include <limits>
 
 namespace ariel
 {

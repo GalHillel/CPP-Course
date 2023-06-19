@@ -1,5 +1,4 @@
 #include "card.hpp"
-#include <iostream>
 
 namespace ariel
 {

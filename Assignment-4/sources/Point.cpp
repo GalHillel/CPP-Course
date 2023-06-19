@@ -1,7 +1,6 @@
 #include "Point.hpp"
 #include <iostream>
 #include <cmath>
-#include <string>
 
 namespace ariel
 {

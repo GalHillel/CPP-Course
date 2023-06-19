@@ -1,7 +1,5 @@
 #include "game.hpp"
-#include <string>
 #include <stdexcept>
-#include <vector>
 #include <iostream>
 #include <algorithm>
 #include <random>
@@ -28,7 +26,6 @@ namespace ariel
 
     Game::Game(Player &p1, Player &p2) : player1(p1), player2(p2), tie(false), numOfTie(0), draws(0), turns(0), p1Wins(0), p2Wins(0), p1CardsWon(0), p2CardsWon(0)
     {
-        int index = 0;
         std::vector<Card> deck;
         for (Rank rank : {Ace, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King})
         {
@@ -51,12 +48,10 @@ namespace ariel
         if (&player1 == &player2)
         {
             throw std::invalid_argument("Cannot play with one player\n");
-            return 1;
         }
         else if (((player1.stacksize() <= 0 && player2.stacksize() <= 0) || turns >= 26) && !tie)
         {
             throw std::exception();
-            return 1;
         }
         else
         {

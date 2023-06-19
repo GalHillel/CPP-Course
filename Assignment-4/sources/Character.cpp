@@ -1,7 +1,6 @@
 #include "Character.hpp"
 #include "Cowboy.hpp"
 #include "Ninja.hpp"
-#include <stdexcept>
 
 using namespace std;
 
